@@ -20,6 +20,10 @@ public class Exercise5_11 {
 				/*
 				(1) 알맞은 코드를 넣어 완성하시오.
 				*/ 
+				result[i][j] = score[i][j];
+				result[i][score[0].length] += score[i][j];
+				result[score.length][j] += score[i][j];
+				result[score.length][score[0].length] += score[i][j];
 			}
 		}
 		

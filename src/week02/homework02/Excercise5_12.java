@@ -1,16 +1,15 @@
-﻿package week02.homework02;
-
+package week02.homework02;
 
 import java.util.*;
 
-class  MultiArrEx4{
+class  Excercise5_12{
 	public static void main(String[] args) {
 		String[][] words = {
 			{"chair","의자"},			// words[0][0], words[0][1]
 			{"computer","컴퓨터"},	// words[1][0], words[1][1]
 			{"integer","정수"}		// words[2][0], words[2][1]
 		};
-
+		int count = 0;
 		Scanner scanner = new Scanner(System.in);
 
 		for(int i=0;i<words.length;i++) {
@@ -20,9 +19,11 @@ class  MultiArrEx4{
 
 			if(tmp.equals(words[i][1])) {
 				System.out.printf("정답입니다.%n%n");
+				count++;
 			} else {
-			   System.out.printf("틀렸습니다. 정답은 %s입니다.%n%n",words[i][1]);
+			   System.out.printf("틀렸습니다. 입력은 %s 정답은 %s입니다.%n%n",tmp, words[i][1]);
 			}
 		} // for
+		System.out.printf("전체 %d문제 중 %d문제 맞추셨습니다.\n", words.length, count);
 	} // main의 끝
 }

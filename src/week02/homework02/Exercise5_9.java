@@ -26,6 +26,7 @@ public class Exercise5_9 {
 				/*
 				(1) 알맞은 코드를 넣어 완성하시오.
 				*/
+				result[j][star.length-1-i] = star[i][j];
 			}
 		}
 		
