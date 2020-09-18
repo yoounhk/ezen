@@ -1,4 +1,4 @@
-﻿package week02.homework02;
+package week02.homework02;
 
 import java.util.Scanner;
 
@@ -18,7 +18,6 @@ public class Exercise5_13 {
             for (int j = 0; j < question.length; j++) {
                 int rnd = (int) (Math.random() * question.length);
                 char tmp = ' ';
-
                 tmp = question[j];
                 question[j] = question[rnd];
                 question[rnd] = tmp;

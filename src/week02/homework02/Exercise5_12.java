@@ -2,7 +2,7 @@ package week02.homework02;
 
 import java.util.*;
 
-class  Excercise5_12{
+class Exercise5_12 {
 	public static void main(String[] args) {
 		String[][] words = {
 			{"chair","의자"},			// words[0][0], words[0][1]

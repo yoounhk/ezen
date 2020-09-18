@@ -1,4 +1,4 @@
-﻿package week02.homework02;
+package week02.homework02;
 
 public class Exercise5_3 {
 
