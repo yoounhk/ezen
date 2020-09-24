@@ -1,4 +1,6 @@
-package week02.homework03;
+package week03.homework03;
+
+import static java.lang.Math.*;
 
 public class Hw06 {
 
@@ -11,6 +13,6 @@ public class Hw06 {
         /*
          * (1) 알맞은 코드를 넣어 완성하시오.
          */
-        return Math.sqrt(Math.pow(x-x1,2) + Math.pow(y-y1,2));
+        return sqrt(pow(x-x1,2) + pow(y-y1,2));
     }
 }

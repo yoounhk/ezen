@@ -1,4 +1,4 @@
-package week02.homework03;
+package week03.homework03;
 
 public class Hw19 {
     public static void main(String[] args) {

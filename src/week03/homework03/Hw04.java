@@ -1,4 +1,4 @@
-package week02.homework03;
+package week03.homework03;
 
 public class Hw04 {
     public static void main(String[] args) {
@@ -24,11 +24,11 @@ public class Hw04 {
         int math;
 
         public int getTotal() {
-            return this.kor+this.eng+this.math;
+            return this.kor + this.eng + this.math;
         }
 
         public float getAverage() {
-            return Math.round(this.getTotal()/3.0*10)/10.0f;
+            return Math.round(getTotal() / 3.0 * 10) / 10.0f;
         }
     }
 }
