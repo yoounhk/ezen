@@ -1,4 +1,4 @@
-package week02.homework03;
+package week03.homework03;
 
 public class Hw05 {
     public static void main(String[] args) {
@@ -15,6 +15,7 @@ public class Hw05 {
         int eng;
         int math;
 
+
         public Student(String name, int ban, int no, int kor, int eng, int math) {
             this.name = name;
             this.ban = ban;
@@ -25,23 +26,22 @@ public class Hw05 {
         }
 
         public int getTotal() {
-            return this.kor + this.eng + this.math;
+            return kor + eng + math;
         }
 
         public float getAverage() {
-            return Math.round(this.getTotal() / 3.0 * 10) / 10.0f;
+            return Math.round(getTotal() / 3.0 * 10) / 10.0f;
         }
 
         public String info() {
-
-            return this.name + "," +
-                    this.ban + "," +
-                    this.no + "," +
-                    this.kor + "," +
-                    this.eng + "," +
-                    this.math + "," +
-                    this.getTotal() + "," +
-                    this.getAverage();
+            return name + ", " +
+                    ban + ", " +
+                    no + ", " +
+                    kor + ", " +
+                    eng + ", " +
+                    math + ", " +
+                    getTotal() + ", " +
+                    getAverage();
         }
     }
 }
