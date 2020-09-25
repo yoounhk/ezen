@@ -1,5 +1,7 @@
 package week03.homework03;
 
+import java.util.Arrays;
+
 public class Hw20 {
 
     /*
@@ -16,10 +18,10 @@ public class Hw20 {
     }
     public static void main(String[] args) {
         int[] original = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        System.out.println(java.util.Arrays.toString(original));
+        System.out.println(Arrays.toString(original));
 
         int[] result = shuffle(original);
-        System.out.println(java.util.Arrays.toString(result));
+        System.out.println(Arrays.toString(result));
     }
 
 

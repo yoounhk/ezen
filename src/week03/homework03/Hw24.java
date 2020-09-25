@@ -2,7 +2,7 @@ package week03.homework03;
 
 public class Hw24 {
     /*
-     * (1) abs메서드를 작성하시오.
+     * (1) abs 메서드를 작성하시오.
      */
     private static int abs(int value) {
         return value > 0 ? value : -value;

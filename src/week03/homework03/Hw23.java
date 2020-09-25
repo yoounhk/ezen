@@ -5,8 +5,8 @@ public class Hw23 {
      *(1) max메서드를 작성하시오.
      */
     private static int max(int[] data) {
-        int max = Integer.MIN_VALUE;
         if (data == null || data.length == 0) return -999999;
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < data.length; i++) {
             if (data[i] > max) max = data[i];
         }
