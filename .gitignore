@@ -74,3 +74,4 @@ local.properties
 .idea/
 ezen.iml
 out/
+.vscode/
