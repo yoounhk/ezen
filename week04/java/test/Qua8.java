@@ -1,5 +1,3 @@
-
-
 public class Qua8 {
     public static void main(String args[]) {
         SutdaDeck deck = new SutdaDeck();

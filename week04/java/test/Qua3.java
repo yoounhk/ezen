@@ -1,5 +1,4 @@
 
-
 class Qua3 {
     public static void main(String args[]) {
         Student s = new Student("ȫ�浿", 1, 1, 100, 60, 76);
@@ -15,9 +14,6 @@ class Student {
     private int math;
     private int eng;
 
-    private double avg;
-    private String formattedAvg;
-
     public Student(String name, int classNumber, int studentNumber, int korean, int math, int eng) {
         this.name = name;
         this.classNumber = classNumber;
@@ -28,24 +24,22 @@ class Student {
     }
 
     public String info() {
-        String result = "";
-        result += name + ","
-                + classNumber + ","
-                + studentNumber + ","
-                + kor + ","
-                + math + ","
-                + eng + ","
-                + getTotal()
-                + "," + getAverage();
-        return result;
+        return name + "," 
+                + classNumber + "," 
+                + studentNumber + "," 
+                + kor + "," 
+          		+ math + "," 
+                + eng + "," 
+          		+ getTotal() + "," 
+           		+ getAverage();
     }
 
     public int getTotal() {
         return kor + math + eng;
     }
 
-    public double getAverage() {
-        return Math.round(getTotal() / 3.0 * 10) / 10.0;
+    public float getAverage() {
+        return Math.round(getTotal() / 3.0 * 10) / 10.0f;
     }
 
 }
