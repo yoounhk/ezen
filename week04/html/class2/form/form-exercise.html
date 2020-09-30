@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>form exercise</title>
+</head>
+
+<body>
+	<h1>input type="text"</h1>
+	<form action="">
+		이름: <input type="text"><br>
+		학번: <input type="text">
+		<input type="submit" value="전송">
+	</form>
+	<form action="">
+		<h1>input type="password"</h1>
+		비밀번호: <input type="password">
+	</form>
+	<h1>input type="radio"</h1>
+	<form action="">
+		성별: <input type="radio" id="남성" name="성별" value="남성"><label for="남성">남성</label>
+		<input type="radio" id="여성" name="성별" value="여성"><label for="여성">여성</label>
+	</form>
+	<h1>input type="checkbox"</h1>
+	<form action="">
+		과일선택:
+		<input type="checkbox" name="fruit">Apple
+		<input type="checkbox" name="fruit">Grape
+		<input type="checkbox" name="fruit">Orange
+	</form>
+	<h1>input type="submit", "reset"</h1>
+	사용자 아이디:
+	<form action="">
+		<input type="text" name="id">
+		<input type="submit" name="id" value="제출">
+		<input type="reset" value="초기화">
+	</form>
+
+	<h1>button</h1>
+	<button onclick="alert('경고')">버튼</button>
+
+	<h1>image button</h1>
+	아이디: <input type="text"><br>
+	<input type="image" src="button.png" alt="제출">
+
+	<h1>textarea</h1>
+	고객의견<br>
+	<textarea cols="30" rows="10">입력하세요.</textarea>
+</body></html>
