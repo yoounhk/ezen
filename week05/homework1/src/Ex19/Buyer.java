@@ -18,7 +18,7 @@ public class Buyer {
         }
         else if (money > p.price) {
             money -= p.price;
-            this.add(p);
+            add(p);
         }
     }
 

@@ -28,8 +28,6 @@ public class MyTv2 {
     }
 
     public void gotoPrevChannel() {
-        int tmp = channel;
-        channel = prevCh;
-        prevCh = tmp;
+        setChannel(prevCh);
     }
 }
