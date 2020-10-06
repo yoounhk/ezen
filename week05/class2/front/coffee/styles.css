@@ -1,0 +1,26 @@
+body {
+	background-color: yellow;
+	font-family: "굴림";
+	color: black;
+}
+
+h1 {
+	border-bottom: 1px solid gray;
+	color: red;
+}
+
+em {
+	color: red;
+}
+
+.first {
+	color: green;
+}
+
+.second {
+	color: blue;
+}
+
+p {
+	padding: 10px;
+}

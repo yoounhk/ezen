@@ -9,9 +9,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Robot[] arr = {new DanceRobot(), new SingRobot(), new DrawRobot()};
+        Robot[] robots = {new DanceRobot(), new SingRobot(), new DrawRobot()};
 
-        for (int i = 0; i < arr.length; i++)
-            action(arr[i]);
+        for (int i = 0; i < robots.length; i++)
+            action(robots[i]);
     }
 }
