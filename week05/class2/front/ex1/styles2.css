@@ -1,0 +1,21 @@
+h1,
+h2 {
+	color: green;
+	font-size: 25px;
+	font-family: "펜흘림", "궁서체";
+}
+
+strong,
+em {
+	color: orange;
+	font-style: italic;
+	font-size: 15px;
+	font-family: "도레미파솔", "견명조";
+}
+
+li {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "휴먼매직체";
+}

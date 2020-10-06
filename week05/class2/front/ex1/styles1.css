@@ -1,0 +1,16 @@
+h1,
+h2 {
+	color: green;
+}
+
+strong {
+	color: orange;
+}
+
+li {
+	color: red;
+}
+
+em {
+	font-style: normal;
+}

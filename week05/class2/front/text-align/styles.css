@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+	color: red;
+}
+
+.date {
+	text-align: right;
+	color: indigo;
+}
+
+.poet {
+	text-align: justify;
+	color: blue;
+}
