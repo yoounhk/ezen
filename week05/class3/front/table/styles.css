@@ -1,0 +1,14 @@
+table,
+th,
+td {
+	border: solid blue 1px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	background-color: aqua;
+}
